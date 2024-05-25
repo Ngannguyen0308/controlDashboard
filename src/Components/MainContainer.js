@@ -8,8 +8,6 @@ import Card3 from "../img/card3.jpg";
 import Card4 from "../img/card4.jpg";
 import Card5 from "../img/card5.jpg";
 import Card6 from "../img/card6.jpg";
-import MainRightTopCard from "./MainRightTopCard";
-import MainRightBottomCard from "./MainRightBottomCard";
 
 function MainContainer() {
   return (
@@ -73,10 +71,10 @@ function MainContainer() {
           </main>
         </div>
       </div>
-      <div className="right">
+      {/* <div className="right">
         <MainRightTopCard />
         <MainRightBottomCard />
-      </div>
+      </div> */}
     </div>
   );
 }
