@@ -29,17 +29,8 @@ function Menu() {
     <menu>
       <img src={logo} alt="" />
 
-      <ul id="mainMenu">
+       <ul id="mainMenu">
         <Icon icon={<FaDelicious />} />
-        <Icon icon={<FaShoppingCart />} />
-        <Icon icon={<FaWallet />} />
-        <Icon icon={<FaChartLine />} />
-        <Icon icon={<FaRegClock />} />
-      </ul>
-
-      <ul className="lastMenu">
-        <Icon icon={<FaCog />} />
-        <Icon icon={<FaSignOutAlt />} />
       </ul>
     </menu>
   );
